@@ -1,0 +1,84 @@
+{
+  "trained_at": "2026-02-20T16:20:16.189001Z",
+  "training_mode": "real_data_UCI",
+  "dataset_file": "data.csv",
+  "total_samples": 4424,
+  "train_samples": 3539,
+  "test_samples": 885,
+  "dropout_ratio": "32.1%",
+  "epochs_completed": 21,
+  "max_epochs": 50,
+  "early_stopping_patience": 8,
+  "smote_applied": true,
+  "dmsw": {
+    "accuracy": 0.835,
+    "auc_roc": 0.9205,
+    "f1_score": 0.7733,
+    "precision": 0.6917,
+    "recall": 0.8768,
+    "confusion_matrix": [
+      [
+        490,
+        111
+      ],
+      [
+        35,
+        249
+      ]
+    ]
+  },
+  "xgboost": {
+    "auc_roc": 0.9417,
+    "f1_score": 0.8259,
+    "n_estimators": 400
+  },
+  "accuracy": 0.8723,
+  "auc_roc": 0.9352,
+  "f1_score": 0.8107,
+  "precision": 0.7732,
+  "recall": 0.8521,
+  "confusion_matrix": {
+    "TP": 242,
+    "FP": 71,
+    "FN": 42,
+    "TN": 530
+  },
+  "class_weights": {
+    "0": 0.7367,
+    "1": 1.5563
+  },
+  "shap_feature_importance": {
+    "overall_pass_rate": 0.2142,
+    "pass_rate_2nd": 0.1662,
+    "tuition_up_to_date": 0.1247,
+    "approved_2nd": 0.0638,
+    "age": 0.0594,
+    "socio_risk": 0.0303,
+    "gender": 0.03,
+    "scholarship": 0.0258,
+    "pass_rate_change": 0.0246,
+    "pass_rate_1st": 0.0237,
+    "displaced": 0.0218,
+    "total_enrolled": 0.019,
+    "gdp": 0.0156,
+    "avg_grade": 0.0151,
+    "debtor": 0.0146,
+    "enrolled_2nd": 0.0145,
+    "prev_qual_grade": 0.0131,
+    "grade_2nd": 0.0125,
+    "admission_grade": 0.0122,
+    "total_approved": 0.0117,
+    "enrolled_1st": 0.0114,
+    "evals_2nd": 0.0113,
+    "grade_admission_gap": 0.0112,
+    "eval_ratio_2nd": 0.0099,
+    "unemployment_rate": 0.0096,
+    "grade_change": 0.0084,
+    "approved_1st": 0.0072,
+    "evals_1st": 0.0069,
+    "eval_ratio_1st": 0.0057,
+    "grade_1st": 0.0051,
+    "international": 0.0004,
+    "special_needs": 0.0
+  }
+}
